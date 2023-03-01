@@ -1,0 +1,237 @@
+* {padding: 0; margin: 0 }
+
+html {background: #dcdde1;}
+
+.container {width: 1050px; 
+			margin: auto}
+
+/*ini css header*/
+header {
+	height: 125px; 
+	background: #38a8af;
+	overflow: hidden;
+}
+
+iframe {padding: 5px;}
+
+
+header .kiri img {
+	width: 100px; 
+	height: 100px;
+	margin-top: 15px;
+	margin-left: 35px;
+	float: left;
+}
+
+header .kanan {
+	font-size: 20px;
+	color: aliceblue;
+	float: left;
+	margin-left: 85px;
+	margin-top: 15px;
+}
+/* css menu */
+menu {
+	height: 45px;
+	background: #636e72;
+	margin-bottom: 20px;
+}
+
+menu ul li {
+	text-decoration: none;
+	color: white;
+	padding-left: 28px;
+	padding-top: 0px;
+	padding-right: 28px ;
+	list-style: none;
+	float: left;
+	border-right: 1px solid black ;
+	line-height: 45px;
+}
+menu ul li a{text-decoration: none;
+	color: white;
+	padding-left: 28px;
+	padding-top: 0px;
+	padding-right: 28px ;
+	list-style: none;
+	float: left;
+	line-height: 45px;}
+/*css masking*/
+body .kanan .atas img{ -webkit-mask-image: radial-gradient(circle at 60% 60%, black 50%, rgba(0, 0, 0, 0.4) 26%);}
+
+menu li:hover {
+	background: #000;
+	color: #38a8af;
+}
+
+/*css arcticle */
+article {overflow: hidden;}
+article h1{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #38a8af;
+}
+article p{
+	text-align: justify;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin-bottom: 15px;
+}
+article .kiri {
+	float: left;
+	width: 330px;
+}
+article .kiri .kiritengah{
+	background: #636e72;
+	padding: 15px;
+	margin-top: 30px;
+}
+article .kiri .kiritengah h1 {
+	color:seashell
+}
+article .kanan {
+	width: 620px;
+	float: right;
+}
+article .kiri .kiritengah img {
+	width: 60px; 
+	padding: 0 20px 0 0;
+}
+article .kiri .kiritengah img:hover{
+	width: 40px;
+}
+article .kanan .atas img {
+	width: 615px;
+	height: 340px;
+}
+article .kanan .atas p {
+	margin-top: 20px;
+}
+
+article .kanan .bawah {
+	margin-top: 40px;
+	overflow: hidden;
+}
+article .kanan .bawah .kiribawah {
+	float:left;
+	width: 300px;
+	border-left: 4px solid #636e72;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	
+}
+article .kanan .bawah .kananbawah {
+	border-left: 4px solid #636e72;
+	width: 250px;
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	
+	
+}
+article .kanan .bawah .kananbawah img {
+	width: 65px;}
+
+	/*css article bawah*/
+	article .bawah1 {
+		padding-top: 10px;
+		float: left; 
+		margin: 330px 0 0 15px; 
+		width: 290px
+	}
+	article .bawah1 h2 {
+		font-size: x-large;
+		padding-top: 15px;
+	}
+	article .bawah2 h2 {
+		font-size: x-large;
+		padding-top: 15px;
+	}
+	article .bawah3 h2 {
+		font-size: x-large;
+		padding-top: 15px;
+	}
+	article .bawah1 img {
+		width: 130px; 
+		height: 110px; 
+		float: left; 
+		margin: 20px 20px 20px 20px;
+	}
+	
+	article .bawah2 {
+		padding-top: 10px;
+		float: right; 
+		margin-left: 60px; 
+		width: 290px
+	}
+	article .bawah2 img {
+		width: 130px; 
+		height: 150 px; 
+		float: left; 
+		margin: 20px 35px 20px 20px
+	}
+	
+	article .bawah3 {
+		padding-top: 10px;
+		float: right; 
+		margin-left: 15px; 
+		width: 290px
+	}
+	article .bawah3 img {
+		width: 130px; 
+		height: 110px; 
+		float: left; 
+		margin: 20px;
+		
+	}
+
+/*css footer*/
+	footer {
+		background-color: #38a8af;
+		color: white;
+		text-align: center;
+		font-size: 15px;
+		line-height: 40px;
+		height: 40px;
+		margin-top: 30px;
+
+
+	}
+	footer a {color: white;}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
